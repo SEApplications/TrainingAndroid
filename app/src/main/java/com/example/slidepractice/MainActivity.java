@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager = findViewById(R.id.viewPager);
 
+        int y = 12;
+
 
 
         dotsLayout = findViewById(R.id.dots_layout);
