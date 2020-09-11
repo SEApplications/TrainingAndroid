@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         int y = 12;
 
-
+        int u = 48;
 
         dotsLayout = findViewById(R.id.dots_layout);
         nextBtn = findViewById(R.id.next_btn);
