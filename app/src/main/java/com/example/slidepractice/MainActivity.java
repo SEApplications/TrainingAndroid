@@ -1,10 +1,5 @@
 package com.example.slidepractice;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.viewpager.widget.ViewPager;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
@@ -12,6 +7,10 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.viewpager.widget.ViewPager;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,8 +37,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         viewPager = findViewById(R.id.viewPager);
+        int x = 5;
 
+        int y = 12;
 
+        int u = 48;
 
         dotsLayout = findViewById(R.id.dots_layout);
         nextBtn = findViewById(R.id.next_btn);
